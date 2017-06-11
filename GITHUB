@@ -1,0 +1,13 @@
+git clone https://github.com/reehmachado/trab2-labso.git
+
+git clone https://github.com/salgado/labso.git    
+
+cp -r ../labso . 
+
+git add *
+
+git status
+
+git commit -m "testando git"
+
+git push
