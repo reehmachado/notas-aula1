@@ -11,3 +11,6 @@ git status
 git commit -m "testando git"
 
 git push
+
+Username for 'https://github.com': reehmachado
+Password for 'https://reehmachado@github.com': 
