@@ -1,0 +1,11 @@
+#!/bin/bash
+
+arq=$1
+
+if [ -f $arq ]
+then
+	echo -e "o arquivo $arq existe"
+else
+	echo -e "o arquivo $arq nao existe"
+fi
+

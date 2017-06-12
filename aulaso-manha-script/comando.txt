@@ -1,0 +1,36 @@
+expr 8 + 8 valor igual a 16
+echo $ expr 8 + 8 mostra a string expr...
+echo $(expr 8 + 8) valor igual a 16
+echo $((8 + 8)) valor gual a 16
+let x=(8 + 8);echo x atribui um valor para x e escrve na tela 
+
+comparar strings == ou = (-eq) para numero 
+
+string:
+comparacao de strings  --> script string2.sh
+
+-z teste conteudo da string 
+if [ -z $numero ]
+echo "primeiro nome= ${name:0:4}"//imprime da primeira posicao ate a ultima
+ping ip // pinga o ip igual win
+ping -c uma vez só
+script ping.sh informa que o ip exite ou nao
+
+case: compara a estenção do arquivo-->script case.sh
+
+loop
+
+for j in 1 2 3 4 5 6 7 8 9 10
+do 
+.....
+done--> script for.sh
+
+for variavel in $(ls) -->for2.sh
+
+while[ $j -le $n ]--> while.sh calacula fatorial
+
+until condição
+do
+....
+done -->until.sh
+ 
